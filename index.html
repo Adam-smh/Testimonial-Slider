@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Owl Carousel</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+    />
+    <!--CSS-->
+    <link rel="stylesheet" href="./Testimonial Sliders.CSS" />
+  </head>
+
+  <body>
+    <div class="owl-carousel">
+      <div class="inner">
+        <div class="img">
+          <img
+            src="https://scontent-cpt1-1.xx.fbcdn.net/v/t1.6435-9/61903667_2219243051523149_5737223820872253440_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=174925&_nc_ohc=Yi9ihY6Zxa8AX-d1N3c&_nc_ht=scontent-cpt1-1.xx&oh=86b4cc0ddb2b211d563340f42305ff95&oe=60B29C94"
+            alt=""
+          />
+        </div>
+        <h3>Aneeqah Jones</h3>
+        <h4>-Software Developer-</h4>
+        <q>
+          Adam is a very helpful person who's always willing to help others,
+          he's very patient when explaining and to be honest he's a bit
+          annoying.
+        </q>
+      </div>
+
+      <div class="inner">
+        <div class="img">
+          <img
+            src="https://scontent-cpt1-1.xx.fbcdn.net/v/t1.6435-9/33921615_238562470057432_4456093006994341888_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=174925&_nc_eui2=AeEmUV4CHREhbUE4wmXkpZ4Q5fdmHb-DwRDl92Ydv4PBEKtXCBNvodSIbxehSfpNx0iR49fTSWD8vQNJAXDF7f5B&_nc_ohc=3BoPAYxgjtYAX8ebSdl&_nc_ht=scontent-cpt1-1.xx&oh=5d820b730a3e51d57c1ad38cd0197959&oe=60B2F20C"
+            alt=""
+          />
+        </div>
+        <h3>Ghiyaath Williams</h3>
+        <h4>-Software Developer-</h4>
+        <q>
+          Adam is real helpful even when his not being helpful. Is a short
+          tempered soul but has a sense of humour which is great to posses in
+          todays world.
+        </q>
+      </div>
+
+      <div class="inner">
+        <div class="img">
+          <img src="./Zoe.jpeg" alt="" />
+        </div>
+        <h3>Zoe Eripse</h3>
+        <h4>-Software Developer-</h4>
+        <q>
+          Adam in an incredibly talented young man. He has tremedous potential
+          and will go far in the industry.
+        </q>
+      </div>
+
+      <div class="inner">
+        <div class="img">
+          <img
+            src="https://scontent-cpt1-1.xx.fbcdn.net/v/t1.6435-9/126803074_425106222213927_7603022089132429468_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=174925&_nc_eui2=AeE85FGWSMRM5pmMA5KJPnh15el_95eNvMnl6X_3l428yZCm11GRQqn6H9cQT8vhEX5cmMT3mnai4czRWcGbh4mU&_nc_ohc=jofl4HRTt6QAX95tcbV&_nc_ht=scontent-cpt1-1.xx&oh=dcfb7ac3426868073f54a918f8cd0eff&oe=60B13558"
+            alt=""
+          />
+        </div>
+        <h3>Ronald Terblanche</h3>
+        <h4>-Software Developer-</h4>
+        <q> Kinda looks fillipino, but has the surename africa. how? </q>
+      </div>
+    </div>
+
+    <!-- Script tags under here -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+      integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+          items: 1,
+          margin: 50,
+          loop: true,
+          stagePadding: 100,
+          dots: false,
+          autoplay: true,
+        });
+      });
+    </script>
+  </body>
+</html>
