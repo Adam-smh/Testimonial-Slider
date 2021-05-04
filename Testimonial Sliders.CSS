@@ -58,6 +58,14 @@ h4 {
 }
 
 q {
-  color: antiquewhite;
-  font-size: 15px;
+  color: beige;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 800px) {
+  .left,
+  .main,
+  .right {
+    width: 100%;
+  }
 }
